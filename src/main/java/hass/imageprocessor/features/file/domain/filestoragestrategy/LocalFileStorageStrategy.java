@@ -1,4 +1,4 @@
-package hass.imageprocessor.filestoragestrategy;
+package hass.imageprocessor.features.file.domain.filestoragestrategy;
 
 import lombok.Getter;
 
