@@ -22,11 +22,15 @@ configurations {
 
 repositories {
 	mavenCentral()
+	maven {
+		url = uri("https://jitpack.io")
+	}
 }
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("com.github.rkalla:imgscalr:master-SNAPSHOT")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
